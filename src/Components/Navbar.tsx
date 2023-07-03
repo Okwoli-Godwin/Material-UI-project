@@ -3,7 +3,7 @@ import { Box, Button } from "@mui/material"
 import logo from "../assets/whiten.png"
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import IconButton from '@mui/material/IconButton';
-import Badge, { BadgeProps } from '@mui/material/Badge';
+import Badge from '@mui/material/Badge';
 import MenuIcon from '@mui/icons-material/Menu';
 import React from "react"
 import { sectionId } from "../Components/Sectionid"

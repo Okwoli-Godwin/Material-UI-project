@@ -1,4 +1,4 @@
-import { Box, styled, Card, Typography, Button, IconButton } from "@mui/material"
+import { Box, styled, Typography } from "@mui/material"
 import logo from "../assets/whiten.png"
 import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
 import TwitterIcon from '@mui/icons-material/Twitter';

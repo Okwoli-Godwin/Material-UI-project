@@ -90,7 +90,7 @@ const Product = () => {
                       <Hold>
             <SaleBox>Sale!</SaleBox>
             <Hovercard>
-                <IconButton onClick={handleClick2} sx={{position: "absolute", right: "20px", bottom: "10px"}}>
+                <IconButton onClick={handleClick3} sx={{position: "absolute", right: "20px", bottom: "10px"}}>
                 {iconColor2 === 'white' ? <FavoriteIcon style={{ color: '#fff', fontSize: "35px" }}/> : <Favorite style={{ color: 'red', fontSize: "35px"}} />}
                 </IconButton>
             </Hovercard>
@@ -116,7 +116,7 @@ const Product = () => {
                       <Hold>
             <SaleBox>Sale!</SaleBox>
             <Hovercard>
-                <IconButton onClick={handleClick2} sx={{position: "absolute", right: "20px", bottom: "10px"}}>
+                <IconButton onClick={handleClick} sx={{position: "absolute", right: "20px", bottom: "10px"}}>
                 {iconColor2 === 'white' ? <FavoriteIcon style={{ color: '#fff', fontSize: "35px" }}/> : <Favorite style={{ color: 'red', fontSize: "35px"}} />}
                 </IconButton>
             </Hovercard>
@@ -191,11 +191,11 @@ const SaleBox = styled(Box)({
   zIndex: "10"
 })
 
-const Hold = styled(Card)(({theme}) => ({
+const Hold = styled(Card)({
   width: "100%",
   height: "300px",
   position: 'relative',
-}))
+})
 
 const Holder = styled(Card)(({theme}) =>({
     width: "300px",

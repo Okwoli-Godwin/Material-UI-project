@@ -1,5 +1,4 @@
-import { Box, styled, Typography, Button, useMediaQuery } from "@mui/material"
-import {useTheme} from "@mui/material/styles"
+import { Box, styled, Typography, Button } from "@mui/material"
 import img from "../assets/best.jpg"
 import img2 from "../assets/unsplash1.png"
 import Slider from "react-slick";
@@ -8,9 +7,6 @@ import "slick-carousel/slick/slick-theme.css";
 
 
 const Hero = () => {
-
-  const theme = useTheme();
-  const matches = useMediaQuery(theme.breakpoints.down)
 
   const settings = {
     infinite: true,
@@ -139,7 +135,7 @@ const BannerBackdrop = styled(Box)(({theme}) => ({
   }
 }))
 
-const BannerContainer = styled(Box)(({theme}) => ({
+const BannerContainer = styled(Box)({
   display: "flex",
   height: "100%",
   width: "100%",
@@ -148,7 +144,7 @@ const BannerContainer = styled(Box)(({theme}) => ({
   backgroundPosition: "center",
   backgroundSize: "cover",
   overflow: "hidden",
-}))
+})
 
 const BannerContainer2 = styled(Box)({
   display: "flex",

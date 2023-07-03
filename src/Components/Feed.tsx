@@ -5,7 +5,6 @@ import img3 from "../assets/shoehero.png"
 import { Favorite } from '@mui/icons-material';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import React from "react"
-import {useTheme} from "@mui/material/styles"
 
 const Feed = () => {
 
